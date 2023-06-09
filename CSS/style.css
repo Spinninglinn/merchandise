@@ -34,12 +34,12 @@ header h1 {
 header nav ul {
     font-family:'Krub', sans-serif;
     font-size: 1rem;
-    font-weight: bolder;
-    justify-content: space-around;
-    display: flex;
+    font-weight: bolder;    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     list-style: none;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .topContainer {
@@ -60,18 +60,16 @@ header nav ul {
 .nemContainer {
     display: flex; 
     flex-direction: row; 
+    justify-content: space-around;
 }
 
 .nemContainer img {
-    width: 60rem;
+    width: 40rem;
     margin-top: 4rem;
     margin-left: 2rem;
 
 }
 
-.nemContainer h2 {
-    flex-grow: 2;
-}
 
 .rektangel {
     flex-direction: column;
@@ -109,6 +107,7 @@ header nav ul {
 }
 
 h2 {
+    
 
 
 }

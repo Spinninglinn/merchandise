@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;300;400&display=swap');
+
 
 body {
     background-color: #FDEFE1;
+    font-family: 'Krub', sans-serif;
 }
 
 header {
     background-color: #FDEFE1;
-    font-family: 'Hanalei Fill', cursive;
-    color: #011011;
-    font-size: 2rem;
+    
 }
 
 header h1 {
+    font-family: 'Hanalei Fill', cursive;
+    color: #011011;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-left: 2rem;
 }
@@ -23,5 +27,12 @@ header h1 {
     background-color: #C2966D;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem; 
+}
+
+header nav {
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
   

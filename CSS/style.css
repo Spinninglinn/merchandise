@@ -4,6 +4,8 @@
 body {
     background-color: #FDEFE1;
     font-family: 'Krub', sans-serif;
+    max-width: 2000px;
+
 }
 
 header {
@@ -33,7 +35,7 @@ header nav ul {
     font-family:'Krub', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -42,11 +44,11 @@ header nav ul {
 
 .topContainer {
     display: flex;
-    border-bottom: 0.1rem solid #011011;
+    border-bottom: 0.13rem solid #011011;
 }
 
 .topContainer img {
-    width: 9.5rem;
+    width: 10.5rem;
     object-fit: cover;
     border: 0.5rem solid #011011;
     margin-right: 5rem; 
@@ -54,14 +56,69 @@ header nav ul {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
+
+.nemContainer {
+    display: flex; 
+    flex-direction: row; 
+}
+
+.nemContainer img {
+    width: 60rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+
+}
+
+.nemContainer h2 {
+    flex-grow: 2;
+}
+
+.rektangel {
+    flex-direction: column;
+    
+}
   
+.rektangel1 {
+    width: 14rem;
+    height: 2rem;
+    background-color: #48B2B9;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rektangel2 {
+    width: 20rem;
+    height: 2rem;
+    background-color: #48B2B9;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rektangel3 {
+    width: 15rem;
+    height: 2rem;
+    background-color: #48B2B9;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+
+
+}
 
 
 
 
 
 
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {
     .top-section {
         flex-wrap: nowrap;
     }

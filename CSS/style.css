@@ -8,11 +8,14 @@ body {
 
 }
 
+/////////////////header////////////////////
 header {
     background-color: #FDEFE1;
     font-family: 'Hanalei Fill', cursive;
     color: #011011;
     font-size: 2rem;
+    display: flex;
+    border-bottom: 0.13rem solid #011011;
 }
 
 header h1 {
@@ -31,7 +34,7 @@ header h1 {
     
 }
 
-header nav ul {
+.header-meny {
     font-family:'Krub', sans-serif;
     font-size: 1rem;
     font-weight: bolder;    display: flex;
@@ -42,12 +45,8 @@ header nav ul {
     margin-right: 2rem;
 }
 
-.topContainer {
-    display: flex;
-    border-bottom: 0.13rem solid #011011;
-}
 
-.topContainer img {
+.header-img-container {
     width: 10.5rem;
     object-fit: cover;
     border: 0.5rem solid #011011;
@@ -57,22 +56,15 @@ header nav ul {
     margin-bottom: 1rem;
 }
 
-.nemContainer {
+.body-top-container {
     display: flex; 
     flex-direction: row; 
     justify-content: space-around;
 }
 
-.nemContainer img {
-    width: 40rem;
-    margin-top: 4rem;
-    margin-left: 2rem;
-
-}
-
 /*----------------------Turkise striper---------------*/
 
-.bakgrunn-rektangel {
+#bakgrunn-rektangel {
     flex-direction: column;
     position: absolute;
     z-index: 1;
@@ -109,19 +101,26 @@ header nav ul {
     margin-bottom: 1rem;
 }
 
-h2 {
-   
+/*----------------------Turkise striper---------------*/
+
+#h2-main-top-section {
+    z-index: 2;
+}
+
+#p-main-top-section {
     
+}
 
-
+#img-main-top-section {
+    width: 40rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
 }
 
 
 
 
-
-
-/*@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
     .top-section {
         flex-wrap: nowrap;
     }

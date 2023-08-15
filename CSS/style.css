@@ -8,13 +8,12 @@ body {
 
 }
 
-/////////////////header////////////////////
 header {
     background-color: #FDEFE1;
     font-family: 'Hanalei Fill', cursive;
     color: #011011;
     font-size: 2rem;
-    display: flex;
+    align-items: center;
     border-bottom: 0.13rem solid #011011;
 }
 
@@ -37,7 +36,8 @@ header h1 {
 .header-meny {
     font-family:'Krub', sans-serif;
     font-size: 1rem;
-    font-weight: bolder;    display: flex;
+    font-weight: bolder;    
+    display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
@@ -46,28 +46,28 @@ header h1 {
 }
 
 
-.header-img-container {
-    width: 10.5rem;
+.header img {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
     object-fit: cover;
+    height: 14rem;
+    width: 11rem;
     border: 0.5rem solid #011011;
-    margin-right: 5rem; 
+    margin-right: 2rem; 
     margin-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-.body-top-container {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-around;
-}
 
-/*----------------------Turkise striper---------------*/
 
-#bakgrunn-rektangel {
-    flex-direction: column;
-    position: absolute;
+/*Turkise striper*/
+
+#background-rektangel {
+    position: relative;
     z-index: 1;
+
     
 }
   
@@ -101,15 +101,22 @@ header h1 {
     margin-bottom: 1rem;
 }
 
-/*----------------------Turkise striper---------------*/
+/*Turkise striper*/
+
+.top-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
 
 #h2-main-top-section {
     z-index: 2;
+    position: absolute;
 }
 
-#p-main-top-section {
+/*#p-main-top-section {
     
-}
+}*/
 
 #img-main-top-section {
     width: 40rem;
@@ -121,6 +128,5 @@ header h1 {
 
 
 @media screen and (min-width: 800px) {
-    .top-section {
-        flex-wrap: nowrap;
-    }
+    
+}

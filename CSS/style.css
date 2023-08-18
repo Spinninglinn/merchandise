@@ -15,6 +15,7 @@ header {
     font-size: 2rem;
     align-items: center;
     border-bottom: 0.13rem solid #011011;
+    
 }
 
 header h1 {
@@ -33,7 +34,7 @@ header h1 {
     
 }
 
-.header-meny {
+ul {
     font-family:'Krub', sans-serif;
     font-size: 1rem;
     font-weight: bolder;    
@@ -41,9 +42,10 @@ header h1 {
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
-    margin-left: 2rem;
+    align-content: flex-end;
+    margin-left: 12rem;
     margin-right: 2rem;
-    hoover
+    
 }
 
 

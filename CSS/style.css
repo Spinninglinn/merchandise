@@ -48,6 +48,17 @@ ul {
     
 }
 
+ul li a{
+    text-decoration: none;
+    color: #011011;
+    cursor: pointer;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+
 
 .header img {
     flex-direction: row;
